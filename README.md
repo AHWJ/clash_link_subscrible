@@ -24,6 +24,12 @@ clash_link_subscrible(do myself)
 
 winxray官网提供的免费订阅:[https://cdn.jsdelivr.net/gh/freefq/free@master/v2](https://cdn.jsdelivr.net/gh/freefq/free@master/v2)
 
+转换后的clash长短连接如下：
+
+https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ffreefq%2Ffree%40master%2Fv2&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
+
+https://suo.yt/jwLe6tO
+
 ## 免费节点池
 [ttps://ednovas.xyz/2021/01/15/freeproxies/](https://ednovas.xyz/2021/01/15/freeproxies/)
 
