@@ -24,7 +24,8 @@ clash_link_subscrible(do myself)
 
 winxray官网提供的免费订阅:[https://cdn.jsdelivr.net/gh/freefq/free@master/v2](https://cdn.jsdelivr.net/gh/freefq/free@master/v2)
 
-
+## 免费节点池
+[ttps://ednovas.xyz/2021/01/15/freeproxies/](https://ednovas.xyz/2021/01/15/freeproxies/)
 
 ## 代理工具
 winxray:[https://www.winxray.com/](https://www.winxray.com/)
