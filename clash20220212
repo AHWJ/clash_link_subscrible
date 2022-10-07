@@ -5,809 +5,270 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |16.94Mb, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}}
-  - {name: "|23.55Mb", server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
-  - {name: "|25.93Mb", server: 158.247.224.121, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "|25.07Mb", server: 158.247.224.121, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: Pool_ | 3.22Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 202.61.141.130}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}
-  - {name: "|18.24Mb", server: 169.197.142.4, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|26.59Mb", server: 169.197.142.4, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|52.66Mb", server: 169.197.142.4, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "|75.69Mb", server: 169.197.142.4, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "|44.87Mb", server: 169.197.142.4, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|66.15Mb", server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "|66.72Mb", server: 169.197.142.4, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "|65.72Mb", server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "|67.46Mb", server: 169.197.142.4, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "|56.28Mb", server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: Pool_ |119.33Mb, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: Relay_ |34.91Mb, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: "|70.75Mb", server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "|45.92Mb", server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|20.07Mb", server: 167.88.63.61, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|61.39Mb", server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "|55.99Mb", server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "|61.29Mb", server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: Relay_ |69.72Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: Pool_ |28.28Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: "|62.72Mb", server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: Relay_ | 2.10Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
-  - {name: Relay_ | 9.25Mb, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ua1.uuv2.co.uk}}
-  - {name: "|47.36Mb", server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|67.81Mb", server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "|65.88Mb", server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "| 3.42Mb", server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "| 3.50Mb", server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|67.84Mb", server: 198.57.27.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "|62.12Mb", server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "| 1.23Mb", server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|63.69Mb", server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "|65.30Mb", server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "| 0.38Mb", server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "| 6.01Mb", server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "| 1.42Mb", server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 8.88Mb", server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|18.53Mb", server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 7.77Mb", server: 142.202.48.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|57.04Mb", server: 198.57.27.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "|10.68Mb", server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|58.49Mb", server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "|61.94Mb", server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "| 5.44Mb", server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Relay_ |55.66Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: "| 3.90Mb", server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "| 5.11Mb", server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 2.49Mb", server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 2.39Mb", server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "| 2.94Mb", server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "| 2.61Mb", server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "| 1.88Mb", server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 uk-am3-5.eqsunshine.com:8181, server: uk-am3-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: PNRbp3j9B, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: "| 4.18Mb", server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "|59.21Mb", server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: Relay_ |49.79Mb, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: Pool_ | 2.68Mb, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: "| 8.27Mb", server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "| 7.84Mb", server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "| 4.00Mb", server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "|64.47Mb", server: 169.197.142.4, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "|18.30Mb", server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "|72.16Mb", server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "|19.15Mb", server: 169.197.142.4, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|60.70Mb", server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "| 2.18Mb", server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "|63.44Mb", server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "|62.92Mb", server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "|56.80Mb", server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|19.19Mb", server: 169.197.142.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 1.43Mb", server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 6.50Mb", server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "| 1.32Mb", server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 4.29Mb", server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 4.89Mb", server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "| 3.73Mb", server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "| 5.45Mb", server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 4.25Mb", server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "| 0.42Mb", server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: "| 0.85Mb", server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "| 3.11Mb", server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "| 1.31Mb", server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "|10.09Mb", server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 4.72Mb", server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "| 4.93Mb", server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "| 6.89Mb", server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "|85.61Mb", server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "| 4.82Mb", server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 2.80Mb", server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 2.02Mb", server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "| 1.49Mb", server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: "|15.61Mb", server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "| 0.27Mb", server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 2.70Mb", server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 1.65Mb", server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 4.81Mb", server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 2.27Mb", server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "| 6.32Mb", server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "| 2.15Mb", server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 5.24Mb", server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 1.44Mb", server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "| 7.33Mb", server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_2326 | 6.42Mb, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "| 4.26Mb", server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32, server: az.hk01.paopaocloud.cyou, port: 10019, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /vn01, ws-headers: {Host: paopao.v2.vn01.paopaocloud.cyou}}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30, server: ah.yd01.paopaocloud.cyou, port: 10020, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: paopao.v2.hk02.paopaocloud.cyou}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 17, server: 172.64.155.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}}
+  - {name: 🇺🇸 github.com/freefq - 美国  7, server: 161.35.229.94, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /tech, ws-headers: {Host: 161.35.229.94}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 21, server: 172.64.144.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}}
+  - {name: 🇩🇪 github.com/freefq - 德国  15, server: 89.163.157.147, port: 443, type: vmess, uuid: b8aedf50-c4f5-4255-b73d-3779db661d70, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/051111230910, ws-headers: {Host: 89.163.157.147}}
+  - {name: 🇭🇰 github.com/freefq - 香港阿里云 6, server: 47.87.166.143, port: 44443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: github.com/freefq - 挪威  22, server: 46.29.218.84, port: 443, type: vmess, uuid: f7a456da-9886-4dd7-b193-4c59a726219c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/051111230910, ws-headers: {Host: 46.29.218.84}}
+  - {name: 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10, server: 159.89.29.136, port: 80, type: vmess, uuid: d20d6ede-433c-11ed-b81f-cfd905df9958, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vmess, ws-headers: {Host: 159.89.29.136}}
+  - {name: github.com/freefq - 立陶宛  27, server: 85.206.165.36, port: 443, type: vmess, uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/051111230910, ws-headers: {Host: 85.206.165.36}}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  16, server: 165.154.244.100, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 165.154.244.100}}
+  - {name: github.com/freefq - 挪威  24, server: PL.nexitally.xyz, port: 443, type: vmess, uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /a54e284cb6/, ws-headers: {Host: PL.nexitally.xyz}}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  20, server: 1002hk1326.tfzhc.top, port: 443, type: trojan, password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7, sni: 1002hk1326.tfzhc.top, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 23, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国3COM公司企业网 8, server: 152.67.213.242, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 github.com/freefq - 英国  19, server: 83.142.225.59, port: 443, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/051111230910, ws-headers: {Host: 83.142.225.59}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 25, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /123, ws-headers: {Host: jparm.fineyoo.cf}}
+  - {name: 🇺🇸 github.com/freefq - 美国Interland 9, server: 64.227.43.168, port: 80, type: vmess, uuid: 07d3c132-e8b6-4685-b436-ffa3a8e2e82b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 64.227.43.168}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 31, server: ar-bue.daycat.space, port: 443, type: vmess, uuid: A9A56660-4554-4278-863A-D3CE30294B59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ar-bue.daycat.space}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 12, server: 139.99.117.48, port: 443, type: vmess, uuid: 0aabdcbd-805f-4f4c-ba24-b176e736b37d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /b26c74ee96d/, ws-headers: {Host: 139.99.117.48}}
+  - {name: github.com/freefq - 海南省海口市电信 33, server: v29.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14, server: qiqis.cf, port: 443, type: vmess, uuid: 4e6d153c-e5b2-4911-bc72-e11c64f3ce93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /b356a4/, ws-headers: {Host: 1dcelis.qiqis.ml}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 29, server: 198.41.212.2, port: 443, type: vmess, uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray1.zhujicn2.com}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 28, server: ee.cloudflare.quest, port: 80, type: vmess, uuid: f9247df4-02d5-4b31-acc5-4022652c5953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /aries, ws-headers: {Host: ee.cloudflare.quest}}
+  - {name: 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2, server: 210.75.24.220, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1, server: xiang.931025.xyz, port: 443, type: vmess, uuid: fd26954c-0352-494f-901c-ce0b7e417b09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: xiang.931025.xyz}}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  18, server: 1002tw01.tfzhc.top, port: 443, type: trojan, password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7, sni: 1002tw01.tfzhc.top, skip-cert-verify: false}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  3, server: 1002tw.tfzhc.top, port: 443, type: trojan, password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7, sni: 1002tw.tfzhc.top, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: shopify.com, port: 80, type: vmess, uuid: 353bbf5f-a264-4731-e735-984e611c2e01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /aries, ws-headers: {Host: tgus.cloudflare.quest}}
+  - {name: 🇭🇰 github.com/freefq - 香港特别行政区 13, server: 27.50.59.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/051111230910, ws-headers: {Host: 27.50.59.222}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 26, server: jparm.fineyoo.ml, port: 443, type: vmess, uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /123, ws-headers: {Host: jparm.fineyoo.ml}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 11, server: sgp.kapok.buzz, port: 443, type: vmess, uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /4befdd8a6/, ws-headers: {Host: sgp.kapok.buzz}}
+  - {name: 🇺🇸 github.com/freefq - 美国  5, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -830,116 +291,39 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |16.94Mb
-      - "|23.55Mb"
-      - "|25.93Mb"
-      - "|25.07Mb"
-      - Pool_ | 3.22Mb
-      - 🇺🇸 Relay_🇺🇸US-🇮🇪IE_2114 |28.89Mb
-      - "|18.24Mb"
-      - "|26.59Mb"
-      - "|52.66Mb"
-      - "|75.69Mb"
-      - "|44.87Mb"
-      - "|66.15Mb"
-      - "|66.72Mb"
-      - "|65.72Mb"
-      - "|67.46Mb"
-      - "|56.28Mb"
-      - Pool_ |119.33Mb
-      - Relay_ |34.91Mb
-      - "|70.75Mb"
-      - "|45.92Mb"
-      - "|20.07Mb"
-      - "|61.39Mb"
-      - "|55.99Mb"
-      - "|61.29Mb"
-      - Relay_ |69.72Mb
-      - Pool_ |28.28Mb
-      - "|62.72Mb"
-      - Relay_ | 2.10Mb
-      - Relay_ | 9.25Mb
-      - "|47.36Mb"
-      - "|67.81Mb"
-      - "|65.88Mb"
-      - "| 3.42Mb"
-      - "| 3.50Mb"
-      - "|67.84Mb"
-      - "|62.12Mb"
-      - "| 1.23Mb"
-      - "|63.69Mb"
-      - "|65.30Mb"
-      - "| 0.38Mb"
-      - "| 6.01Mb"
-      - "| 1.42Mb"
-      - "| 8.88Mb"
-      - "|18.53Mb"
-      - "| 7.77Mb"
-      - "|57.04Mb"
-      - "|10.68Mb"
-      - "|58.49Mb"
-      - "|61.94Mb"
-      - "| 5.44Mb"
-      - Relay_ |55.66Mb
-      - "| 3.90Mb"
-      - "| 5.11Mb"
-      - "| 2.49Mb"
-      - "| 2.39Mb"
-      - "| 2.94Mb"
-      - "| 2.61Mb"
-      - "| 1.88Mb"
-      - 🇬🇧 uk-am3-5.eqsunshine.com:8181
-      - "| 4.18Mb"
-      - "|59.21Mb"
-      - Relay_ |49.79Mb
-      - Pool_ | 2.68Mb
-      - "| 8.27Mb"
-      - "| 7.84Mb"
-      - "| 4.00Mb"
-      - "|64.47Mb"
-      - "|18.30Mb"
-      - "|72.16Mb"
-      - "|19.15Mb"
-      - "|60.70Mb"
-      - "| 2.18Mb"
-      - "|63.44Mb"
-      - "|62.92Mb"
-      - "|56.80Mb"
-      - "|19.19Mb"
-      - "| 1.43Mb"
-      - "| 6.50Mb"
-      - "| 1.32Mb"
-      - "| 4.29Mb"
-      - "| 4.89Mb"
-      - "| 3.73Mb"
-      - "| 5.45Mb"
-      - "| 4.25Mb"
-      - "| 0.42Mb"
-      - "| 0.85Mb"
-      - "| 3.11Mb"
-      - "| 1.31Mb"
-      - "|10.09Mb"
-      - "| 4.72Mb"
-      - "| 4.93Mb"
-      - "| 6.89Mb"
-      - "|85.61Mb"
-      - "| 4.82Mb"
-      - "| 2.80Mb"
-      - "| 2.02Mb"
-      - "| 1.49Mb"
-      - "|15.61Mb"
-      - "| 0.27Mb"
-      - "| 2.70Mb"
-      - "| 1.65Mb"
-      - "| 4.81Mb"
-      - "| 2.27Mb"
-      - "| 6.32Mb"
-      - "| 2.15Mb"
-      - "| 5.24Mb"
-      - "| 1.44Mb"
-      - "| 7.33Mb"
-      - ZZ_2326 | 6.42Mb
-      - "| 4.26Mb"
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 32
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国  7
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
+      - 🇩🇪 github.com/freefq - 德国  15
+      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - github.com/freefq - 挪威  22
+      - 🇩🇪 github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 10
+      - github.com/freefq - 立陶宛  27
+      - 🇨🇦 github.com/freefq - 加拿大  16
+      - github.com/freefq - 挪威  24
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇸🇬 github.com/freefq - 新加坡OVH 23
+      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 8
+      - 🇬🇧 github.com/freefq - 英国  19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国Interland 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
+      - 🇸🇬 github.com/freefq - 新加坡OVH 12
+      - github.com/freefq - 海南省海口市电信 33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇨🇳 github.com/freefq - 广东省深圳市诺瓦科技发展有限公司 2
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇨🇦 github.com/freefq - 加拿大  18
+      - 🇨🇦 github.com/freefq - 加拿大  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇭🇰 github.com/freefq - 香港特别行政区 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 github.com/freefq - 美国  5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
